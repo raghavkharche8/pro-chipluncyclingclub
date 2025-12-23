@@ -306,45 +306,6 @@ const EventsPage = () => {
       </div>
 
 
-      <div className="bg-gradient-to-b from-[#0a0a0a] to-[#1a1a1a] py-20">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="space-y-8"
-          >
-            <h2 className="text-5xl md:text-6xl font-bold text-white mb-4">
-              Ready to Race?
-            </h2>
-
-            <p className="text-xl text-gray-400 mb-8">
-              Browse our events and find your next challenge
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <motion.a
-                href="/events/king-of-kumbharli"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-gradient-to-r from-[#ff6b35] to-[#ff8556] text-white px-8 py-4 rounded-full font-semibold text-lg shadow-2xl shadow-orange-500/30 hover:shadow-orange-500/50 transition-all duration-300"
-              >
-                View King of Kumbharli
-              </motion.a>
-
-              <motion.a
-                href="#about"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/20 transition-colors duration-300 border border-white/20"
-              >
-                Join CCC
-              </motion.a>
-            </div>
-          </motion.div>
-        </div>
-      </div>
     </div>
   );
 };

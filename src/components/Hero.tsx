@@ -42,7 +42,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight"
           >
-            Climbs Made Us. Grit Keeps Us.
+            Climbs Made Us.
           </motion.h1>
 
           <motion.p
